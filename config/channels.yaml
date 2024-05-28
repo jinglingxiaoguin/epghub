@@ -150,6 +150,7 @@ chongqing:
   recap: 7
   refresh: once
   scraper:
+    tvmao: CCQTV1
     cctv: chongqing
 dongfang:
   name:
@@ -190,6 +191,7 @@ guangdong:
   recap: 7
   refresh: once
   scraper:
+    tvmao: GDTV1
     cctv: guangdong
 guangxi:
   name:
@@ -198,6 +200,7 @@ guangxi:
   recap: 7
   refresh: once
   scraper:
+    tvmao: GUANXI1
     cctv: guangxi
 gxhztv1:
   name:
