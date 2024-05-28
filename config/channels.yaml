@@ -3,6 +3,6 @@ cctv-1:
   - CCTV-1
   preview: 2
   recap: 2
-  refresh: once
+  refresh: today
   scraper:
     tvsou: b3666b9d
