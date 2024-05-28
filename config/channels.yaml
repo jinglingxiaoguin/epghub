@@ -2,7 +2,8 @@ cctv-1:
   name:
   - CCTV-1
   preview: 2
-  recap: 2
-  refresh: today
+  recap: 7
+  refresh: once
   scraper:
     tvsou: b3666b9d
+    cctv: cctv1
