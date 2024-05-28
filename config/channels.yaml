@@ -1,36 +1,8 @@
-nanningtv1:
+cctv-1:
   name:
-  - 南宁新闻综合
+  - CCTV-1
   preview: 2
   recap: 7
   refresh: once
   scraper:
-    tvsou: e211ffe8
-    tvmao: NANNINGTV1
-nanningtv2:
-  name:
-  - 南宁影视娱乐
-  preview: 2
-  recap: 7
-  refresh: once
-  scraper:
-    tvsou: 4fcb0eb5
-    tvmao: NANNINGTV2
-nanningtv3:
-  name:
-  - 南宁都市生活
-  preview: 2
-  recap: 7
-  refresh: once
-  scraper:
-    tvsou: e3db88c7
-    tvmao: NANNINGTV3
-nanningtv4:
-  name:
-  - 南宁公共
-  preview: 2
-  recap: 7
-  refresh: once
-  scraper:
-    tvsou: bd03b751
-    tvmao: NANNINGTV4
+    tvsou: b3666b9d  
