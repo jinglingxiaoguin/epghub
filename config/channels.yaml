@@ -1,6 +1,6 @@
 cctv-1:
   name:
-  - CCTV-1
+  - CCTV-1综合
   preview: 2
   recap: 7
   refresh: once
@@ -8,7 +8,7 @@ cctv-1:
     cctv: cctv1
 cctv-2:
   name:
-  - CCTV-2
+  - CCTV-2财经
   preview: 2
   recap: 7
   refresh: once
@@ -16,7 +16,7 @@ cctv-2:
     cctv: cctv2
 cctv-3:
   name:
-  - CCTV-3
+  - CCTV-3综艺
   preview: 2
   recap: 7
   refresh: once
@@ -24,7 +24,7 @@ cctv-3:
     cctv: cctv3
 cctv-4:
   name:
-  - CCTV-4
+  - CCTV-4中文国际
   preview: 2
   recap: 7
   refresh: once
@@ -32,7 +32,7 @@ cctv-4:
     cctv: cctv4
 cctv-5:
   name:
-  - CCTV-5
+  - CCTV-5体育
   preview: 2
   recap: 7
   refresh: once
@@ -48,7 +48,7 @@ cctv5plus:
     cctv: cctv5plus
 cctv-6:
   name:
-  - CCTV-6
+  - CCTV-6电影
   preview: 2
   recap: 7
   refresh: once
@@ -56,7 +56,7 @@ cctv-6:
     cctv: cctv6
 cctv-7:
   name:
-  - CCTV-7
+  - CCTV-7国防军事
   preview: 2
   recap: 7
   refresh: once
@@ -64,7 +64,7 @@ cctv-7:
     cctv: cctv7
 cctv-8:
   name:
-  - CCTV-8
+  - CCTV-8电视剧
   preview: 2
   recap: 7
   refresh: once
@@ -72,7 +72,7 @@ cctv-8:
     cctv: cctv8
 cctv-9:
   name:
-  - CCTV-9
+  - CCTV-9纪录
   preview: 2
   recap: 7
   scraper:
@@ -81,7 +81,7 @@ cctv-9:
   refresh: today
 cctv-10:
   name:
-  - CCTV-10
+  - CCTV-10科教
   preview: 2
   recap: 7
   refresh: once
@@ -89,7 +89,7 @@ cctv-10:
     cctv: cctv10
 cctv-11:
   name:
-  - CCTV-11
+  - CCTV-11戏曲
   preview: 2
   recap: 7
   refresh: once
@@ -97,7 +97,7 @@ cctv-11:
     cctv: cctv11
 cctv-12:
   name:
-  - CCTV-12
+  - CCTV-12社会与法
   preview: 2
   recap: 7
   refresh: once
@@ -105,7 +105,7 @@ cctv-12:
     cctv: cctv12
 cctv-13:
   name:
-  - CCTV-13
+  - CCTV-13新闻
   preview: 2
   recap: 7
   refresh: once
@@ -113,7 +113,7 @@ cctv-13:
     cctv: cctv13
 cctv-14:
   name:
-  - CCTV-14
+  - CCTV-14少儿
   preview: 2
   recap: 7
   refresh: once
@@ -121,7 +121,7 @@ cctv-14:
     cctv: cctvchild
 cctv-15:
   name:
-  - CCTV-15
+  - CCTV-15音乐
   preview: 2
   recap: 7
   refresh: once
@@ -129,7 +129,7 @@ cctv-15:
     cctv: cctv15
 cctv-16:
   name:
-  - CCTV-16
+  - CCTV-16奥林匹克
   preview: 2
   recap: 7
   refresh: once
@@ -137,7 +137,7 @@ cctv-16:
     cctv: cctv16
 cctv-17:
   name:
-  - CCTV-17
+  - CCTV-17农业农村
   preview: 2
   recap: 7
   refresh: once
