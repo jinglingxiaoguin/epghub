@@ -169,6 +169,14 @@ fcgtv1:
   refresh: once
   scraper:
     tvmao: FCGTV1
+防城港公共:
+  name:
+  - 防城港公共
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    tvmao: FCGTV2
 ggtv1:
   name:
   - 贵港新闻综合
@@ -177,6 +185,22 @@ ggtv1:
   refresh: once
   scraper:
     tvmao: GGTV1
+贵港公共:
+  name:
+  - 贵港公共
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    tvmao: GGTV2
+崇左新闻综合:
+  name:
+  - 崇左新闻综合
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    tvmao: GXCZTV1
 glxw:
   name:
   - 桂林新闻综合
@@ -185,6 +209,22 @@ glxw:
   refresh: once
   scraper:
     tvmao: GLXW
+桂林公共:
+  name:
+  - 桂林公共
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    tvmao: GLGG
+桂林科教旅游:
+  name:
+  - 桂林科教旅游
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    tvmao: GLKJLY
 guangdong:
   name:
   - 广东卫视
@@ -219,6 +259,14 @@ gxlztv1:
   refresh: once
   scraper:
     tvmao: GXLZTV1
+柳州科教:
+  name:
+  - 柳州科教
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    tvmao: GXLZTV1
 gxwztv1:
   name:
   - 梧州新闻综合
@@ -227,6 +275,22 @@ gxwztv1:
   refresh: once
   scraper:
     tvmao: GXWZTV1
+梧州公共:
+  name:
+  - 梧州公共
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    tvmao: GXWZTV2
+梧州教育生活:
+  name:
+  - 梧州教育生活
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    tvmao: GXWZTV3
 gxyltv1:
   name:
   - 玉林新闻综合
@@ -235,6 +299,14 @@ gxyltv1:
   refresh: once
   scraper:
     tvmao: GXYLTV1
+玉林公共:
+  name:
+  - 玉林公共
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    tvmao: GXYLTV2
 hchtv1:
   name:
   - 河池新闻综合
@@ -316,7 +388,7 @@ nanningtv2:
     tvmao: NANNINGTV2
 nanningtv3:
   name:
-  - 南宁都市生活
+  - 南宁文旅生活
   preview: 2
   recap: 7
   refresh: once
@@ -340,6 +412,14 @@ qztvca1:
   refresh: once
   scraper:
     tvmao: QZTVCA1
+钦州公共:
+  name:
+  - 钦州公共
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    tvmao: QZTVCA2
 shandong:
   name:
   - 山东卫视
@@ -384,6 +464,22 @@ bhtv1:
   refresh: once
   scraper:
     tvmao: BHTV1
+北海经济科教:
+  name:
+  - 北海经济科教
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    tvmao: BHTV2
+北海公共:
+  name:
+  - 北海公共
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    tvmao: BHTV3
 bstv1:
   name:
   - 百色综合
@@ -392,6 +488,14 @@ bstv1:
   refresh: once
   scraper:
     tvmao: BSTV1
+百色公共:
+  name:
+  - 百色公共
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    tvmao: BSTV2
 jiatinglicai:
   name:
   - 家庭理财
