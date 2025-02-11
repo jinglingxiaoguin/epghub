@@ -365,7 +365,7 @@ lbtvca1:
   recap: 7
   refresh: once
   scraper:
-    tvsou: 50486917
+    tvsou: "50486917"
     tvmao: LBTVCA1
 nanningtv1:
   name:
