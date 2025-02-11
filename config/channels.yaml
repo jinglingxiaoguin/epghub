@@ -293,6 +293,7 @@ gxlztv1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: 2be3a880
     tvmao: GXLZTV1
 柳州科教:
   name:
@@ -301,6 +302,7 @@ gxlztv1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: 8aa66cc6
     tvmao: GXLZTV1
 gxwztv1:
   name:
@@ -309,6 +311,7 @@ gxwztv1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: c68ba5e9
     tvmao: GXWZTV1
 梧州公共:
   name:
@@ -317,6 +320,7 @@ gxwztv1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: d9177e5d
     tvmao: GXWZTV2
 梧州教育生活:
   name:
@@ -325,6 +329,7 @@ gxwztv1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: b08c7424
     tvmao: GXWZTV3
 gxyltv1:
   name:
@@ -333,6 +338,7 @@ gxyltv1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: 3343c66e
     tvmao: GXYLTV1
 玉林公共:
   name:
@@ -341,6 +347,7 @@ gxyltv1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: db180512
     tvmao: GXYLTV2
 hchtv1:
   name:
@@ -349,6 +356,7 @@ hchtv1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: 6b6c673a
     tvmao: HCHTV1
 lbtvca1:
   name:
@@ -357,6 +365,7 @@ lbtvca1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: 50486917
     tvmao: LBTVCA1
 nanningtv1:
   name:
@@ -401,6 +410,7 @@ qztvca1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: 4cc1167e
     tvmao: QZTVCA1
 钦州公共:
   name:
@@ -409,6 +419,7 @@ qztvca1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: 0e5850bc
     tvmao: QZTVCA2
 bhtv1:
   name:
@@ -417,6 +428,7 @@ bhtv1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: 4b639997
     tvmao: BHTV1
 北海经济科教:
   name:
@@ -425,6 +437,7 @@ bhtv1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: c79fe642
     tvmao: BHTV2
 北海公共:
   name:
@@ -433,6 +446,7 @@ bhtv1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: 1bc414b4
     tvmao: BHTV3
 bstv1:
   name:
@@ -441,6 +455,7 @@ bstv1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: 602af3fa
     tvmao: BSTV1
 百色公共:
   name:
@@ -449,6 +464,7 @@ bstv1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: b52ef333
     tvmao: BSTV2
 jiatinglicai:
   name:
@@ -465,6 +481,7 @@ fcgtv1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: b11c02df
     tvmao: FCGTV1
 防城港公共:
   name:
@@ -473,6 +490,7 @@ fcgtv1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: ddfff1d6
     tvmao: FCGTV2
 ggtv1:
   name:
@@ -481,6 +499,7 @@ ggtv1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: 1117ed28
     tvmao: GGTV1
 贵港公共:
   name:
@@ -489,6 +508,7 @@ ggtv1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: d9bfc9f6
     tvmao: GGTV2
 崇左新闻综合:
   name:
@@ -497,6 +517,7 @@ ggtv1:
   recap: 7
   refresh: once
   scraper:
+    tvsou: a5e5ad7f
     tvmao: GXCZTV1
 glxw:
   name:
@@ -505,6 +526,7 @@ glxw:
   recap: 7
   refresh: once
   scraper:
+    tvsou: 123b1ef3
     tvmao: GLXW
 桂林公共:
   name:
@@ -513,6 +535,7 @@ glxw:
   recap: 7
   refresh: once
   scraper:
+    tvsou: 2ca58f72
     tvmao: GLGG
 桂林科教旅游:
   name:
@@ -521,6 +544,7 @@ glxw:
   recap: 7
   refresh: once
   scraper:
+    tvsou: e3ec53f2
     tvmao: GLKJLY
 IPTV魅力时尚:
   name:
