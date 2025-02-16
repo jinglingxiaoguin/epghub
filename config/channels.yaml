@@ -585,7 +585,48 @@ IPTV野外:
   recap: 7
   refresh: once
   scraper:
+    tvsou: c541a7db
     tvmao: IPTVYW
+IPTV3+:
+  name:
+  - IPTV3+
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    tvsou: 4c6e941d
+IPTV5+:
+  name:
+  - IPTV5+
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    tvsou: 36837a08
+IPTV6+:
+  name:
+  - IPTV6+
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    tvsou: 329bb018
+IPTV经典电影:
+  name:
+  - IPTV经典电影
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    tvsou: 329bb018
+IPTV8+:
+  name:
+  - IPTV8+
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    tvsou: 6ba05d48
 IPTV谍战剧场:
   name:
   - IPTV谍战剧场
@@ -593,6 +634,7 @@ IPTV谍战剧场:
   recap: 7
   refresh: once
   scraper:
+    tvsou: 3c16f304
     tvmao: IPTVDZJC
 IPTV相声小品:
   name:
@@ -601,4 +643,5 @@ IPTV相声小品:
   recap: 7
   refresh: once
   scraper:
+    tvsou: 5a09b2ed
     tvmao: IPTVXSXP
