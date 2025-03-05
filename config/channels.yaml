@@ -91,15 +91,6 @@ IPTV法治:
   refresh: once
   scraper:
     tvmao: IPTVSEDH
-IPTV野外:
-  name:
-  - IPTV野外
-  preview: 2
-  recap: 1
-  refresh: once
-  scraper:
-    tvsou: c541a7db
-    tvmao: IPTVYW
 爱综艺:
   name:
   - 爱综艺
@@ -140,6 +131,15 @@ IPTV野外:
   refresh: once
   scraper:
     tvsou: 6ba05d48
+IPTV野外:
+  name:
+  - IPTV野外
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    tvsou: c541a7db
+    tvmao: IPTVYW
 IPTV谍战剧场:
   name:
   - IPTV谍战剧场
