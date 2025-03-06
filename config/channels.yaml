@@ -1,9 +1,155 @@
+柳州新闻综合:
+  name:
+  - 柳州新闻综合
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    51livetv: "1241"
+
+
+南宁新闻综合:
+  name:
+  - 南宁新闻综合
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    51livetv: "1312"
+
+南宁影视娱乐:
+  name:
+  - 南宁影视娱乐
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    51livetv: "1313"
+
+南宁文旅生活:
+  name:
+  - 南宁文旅生活
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    51livetv: "1314"
+
+南宁公共:
+  name:
+  - 南宁公共
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    51livetv: "1315"
+
+广西新闻:
+  name:
+  - 广西新闻
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    51livetv: "1112"
+
+玉林新闻综合:
+  name:
+  - 玉林新闻综合
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    51livetv: "1759"
+
+梧州新闻综合:
+  name:
+  - 梧州新闻综合
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    51livetv: "1926"
+
+北海新闻综合:
+  name:
+  - 北海新闻综合
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    51livetv: "2451"
+
+河池新闻综合:
+  name:
+  - 河池新闻综合
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    51livetv: "2454"
+
+贵港新闻综合:
+  name:
+  - 贵港新闻综合
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    51livetv: "2456"
+
+防城港新闻综合:
+  name:
+  - 防城港新闻综合
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    51livetv: "2458"
+
+崇左综合:
+  name:
+  - 崇左综合
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    51livetv: "2460"
+
+来宾综合:
+  name:
+  - 来宾综合
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    51livetv: "2842"
+
+百色综合:
+  name:
+  - 百色综合
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    51livetv: "2522"
+
 桂林新闻综合:
   name:
   - 桂林新闻综合
   preview: 2
-  recap: 1
+  recap: 7
   refresh: once
   scraper:
-    tvsou: 123b1ef3
     51livetv: "2805"
+
+钦州综合:
+  name:
+  - 钦州综合
+  preview: 2
+  recap: 7
+  refresh: once
+  scraper:
+    51livetv: "2840"
+
+
