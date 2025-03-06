@@ -1,7 +1,8 @@
 from datetime import datetime, date, timedelta
 import requests
 from bs4 import BeautifulSoup
-from epg.model import Channel, Program  # 假设你已经定义了 Channel 和 Program 类
+from epg.model import Channel, Program  
+import re
 
 # 基础 URL
 baseurl = "https://www.51livetv.com/jmb/"
@@ -22,6 +23,8 @@ def grab_programs(channel_id: str, need_weekday: int) -> tuple:
     channel_baseurl = baseurl + channel_id + "_w" + str(need_weekday) + "/"
     try:
         res = requests.get(channel_baseurl, headers=headers, timeout=5)
+        if res.status_code != 200:
+            return False
     except requests.RequestException:
         return False
 
@@ -31,8 +34,14 @@ def grab_programs(channel_id: str, need_weekday: int) -> tuple:
             # 抓取节目列表
             content = soup.find("ul", class_="program_time_tabs_item_ul").find_all("li")
             # 抓取日期（假设页面中有日期信息）
-            date_str = soup.find("div", class_="date_info").text.strip()  # 假设日期在某个 div 中
-            date = datetime.strptime(date_str, "%Y年%m月%d日").date()
+            try:
+                date_str = soup.find("div", class_="date_info").text.strip()
+                date = datetime.strptime(date_str, "%Y年%m月%d日").date()
+            except AttributeError:
+                # 如果页面中没有日期信息，根据当前日期推算
+                now_date = datetime.now().date()
+                delta = timedelta(days=need_weekday - now_date.weekday())
+                date = now_date + delta
         except AttributeError:
             return False
     else:
@@ -58,12 +67,23 @@ def parse_programs(content: tuple) -> list:
             time_str = time_element.text.strip()
             title = title_element.text.strip()
 
-            # 解析时间
-            start_time = datetime.strptime(time_str, "%H:%M").time()
-            start = datetime.combine(date, start_time)
+            # 清理节目名称中的时间前缀
+            if time_str in title:
+                title = title.replace(time_str, "").strip()
 
-            # 添加到节目列表
-            programs.append({"title": title, "start": start})
+            # 检查时间格式是否为 HH:MM
+            if re.match(r"^\d{2}:\d{2}$", time_str):
+                try:
+                    # 解析时间
+                    start_time = datetime.strptime(time_str, "%H:%M").time()
+                    start = datetime.combine(date, start_time)
+
+                    # 添加到节目列表
+                    programs.append({"title": title, "start": start})
+                except ValueError:
+                    continue  # 跳过无效时间格式
+            else:
+                continue  # 跳过无效时间格式
 
     return programs
 
@@ -83,12 +103,11 @@ def update(channel: Channel, scraper_id: str | None = None, dt: date = datetime.
     now_weekday = now_date.weekday()
     need_weekday = now_weekday + delta.days
 
-    if delta.days < 0:
-        if abs(delta.days) > now_weekday:
-            return False
-    if delta.days > 0:
-        if delta.days > 6 - now_weekday:
-            return False
+    # 确保 need_weekday 在 0 到 6 之间
+    if need_weekday < 0:
+        need_weekday += 7
+    elif need_weekday > 6:
+        need_weekday -= 7
 
     # 抓取节目
     bs_programs = grab_programs(scraper_id, need_weekday)
