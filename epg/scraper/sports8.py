@@ -71,6 +71,10 @@ def parse_programs(content: tuple) -> list:
             if time_str in title:
                 title = title.replace(time_str, "").strip()
 
+            # 清理节目名称中的【直播中】字样
+            if "【直播中】" in title:
+                title = title.replace("【直播中】", "").strip()
+
             # 检查时间格式是否为 HH:MM
             if re.match(r"^\d{2}:\d{2}$", time_str):
                 try:
