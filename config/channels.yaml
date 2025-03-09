@@ -40,14 +40,6 @@
   refresh: once
   scraper:
     tvmao: CCTV4K
-'2051':
-  name:
-  - 北京纪实科教
-  preview: 2
-  recap: 7
-  refresh: once
-  scraper:
-    sports8: '2011'
 '3':
   name:
   - 卡酷动画
