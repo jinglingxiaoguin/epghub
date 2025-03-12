@@ -39,6 +39,8 @@
   recap: 7
   refresh: once
   scraper:
+    cntv: CCTV4K
+    51livetv: '3350'    
     tvmao: CCTV4K
 '3':
   name:
