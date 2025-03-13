@@ -39,8 +39,7 @@
   recap: 6
   refresh: once
   scraper:
-    51livetv: '3350'
-    tvmao: CCTV4K
+    cctv: cctv4k
 '3':
   name:
   - 卡酷动画
