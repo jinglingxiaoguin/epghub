@@ -1,371 +1,1684 @@
-'1232':
+南宁新闻综合:
+  name:
+  - 南宁新闻综合
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    51livetv: '1312'
+    sports8: '283'
+南宁文旅生活:
+  name:
+  - 南宁文旅生活
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    51livetv: '1314'
+    sports8: '285'
+南宁影视娱乐:
+  name:
+  - 南宁影视娱乐
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    51livetv: '1313'
+    sports8: '284'
+南宁公共频道:
   name:
   - 南宁公共频道
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     51livetv: '1315'
     sports8: '286'
-'1310':
+广西卫视:
   name:
-  - 爱体育
+  - 广西卫视
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
-    sports8: '2869'
-'162':
+    bfgd: '4200000116'
+    ystenfj: fjguangxistv
+    ystenln: fjguangxistv
+    ystenjs: guangxistv
+广西新闻:
   name:
-  - 中国天气
+  - 广西新闻
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
-    51livetv: '2047'
-    sports8: '1168'
-'190':
+    51livetv: '1872'
+    sports8: '178'
+广西综艺旅游:
   name:
-  - 爱大剧
+  - 广西综艺旅游
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
-    sports8: '2871'
-'2050':
+    51livetv: '1222'
+    sports8: '174'
+广西都市:
   name:
-  - CCTV4K
+  - 广西都市
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
-    cctv: CCTV4K
-    51livetv: '3350'    
-    tvmao: CCTV4K
-'3':
+    51livetv: '1223'
+    sports8: '175'
+广西影视:
+  name:
+  - 广西影视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    51livetv: '1225'
+    sports8: '177'
+CCTV1:
+  name:
+  - CCTV1
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000488'
+    ystenfj: HD-8000k-1080P-lowcctv1
+    ystenln: HD-8000k-1080P-lowcctv1
+    ystenjs: G_CCTV-1-AVS-4K264
+CCTV2:
+  name:
+  - CCTV2
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000061'
+    ystenfj: cctv-2
+    ystenln: cctv-2
+    ystenjs: cctv-2
+CCTV3:
+  name:
+  - CCTV3
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000062'
+    ystenfj: HD-8M-1080P-cctv3
+    ystenln: HD-8M-1080P-cctv3
+    ystenjs: G_CCTV-3-AVS-4K264
+CCTV4:
+  name:
+  - CCTV4
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000063'
+    ystenfj: cctv-4
+    ystenln: cctv-4
+    ystenjs: cctv-4
+CCTV5:
+  name:
+  - CCTV5
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000064'
+    ystenfj: HD-8M-1080P-cctv5
+    ystenln: HD-8M-1080P-cctv5
+    ystenjs: G_CCTV-5-AVS-4K264
+CCTV6:
+  name:
+  - CCTV6
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000065'
+    ystenfj: HD-8M-1080P-cctv6
+    ystenln: HD-8M-1080P-cctv6
+    ystenjs: G_CCTV-6-AVS-4K264
+CCTV7:
+  name:
+  - CCTV7
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000127'
+    ystenfj: HD-8000k-1080P-cctv7
+    ystenln: HD-8000k-1080P-cctv7
+    ystenjs: cctv-7
+CCTV8:
+  name:
+  - CCTV8
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000066'
+    ystenfj: HD-8M-1080P-cctv8
+    ystenln: HD-8M-1080P-cctv8
+    ystenjs: G_CCTV-8-AVS-4K264
+CCTV9:
+  name:
+  - CCTV9
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000128'
+    ystenfj: HD-8000k-1080P-cctv9
+    ystenln: HD-8000k-1080P-cctv9
+    ystenjs: cctv-9
+CCTV10:
+  name:
+  - CCTV10
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000129'
+    ystenfj: HD-8000k-1080P-cctv10
+    ystenln: HD-8000k-1080P-cctv10
+    ystenjs: cctv-10
+CCTV11:
+  name:
+  - CCTV11
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000130'
+    ystenfj: cctv-11
+    ystenln: cctv-11
+    ystenjs: cctv-11
+CCTV12:
+  name:
+  - CCTV12
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000131'
+    ystenfj: HD-8000k-1080P-cctv12
+    ystenln: HD-8000k-1080P-cctv12
+    ystenjs: cctv-12
+CCTV13:
+  name:
+  - CCTV13
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000067'
+    ystenfj: cctv-13
+    ystenln: cctv-13
+    ystenjs: G_CCTV-13-HD-265-8M
+CCTV14:
+  name:
+  - CCTV14
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000132'
+    ystenfj: HD-8000k-1080P-cctv14
+    ystenln: HD-8000k-1080P-cctv14
+    ystenjs: cctv-14
+CCTV15:
+  name:
+  - CCTV15
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000133'
+    ystenfj: cctv-15
+    ystenln: cctv-15
+    ystenjs: cctv-15
+CCTV5+:
+  name:
+  - CCTV5+
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000246'
+    ystenfj: HD-8000k-1080P-cctv05plus
+    ystenln: HD-8000k-1080P-cctv05plus
+    ystenjs: hdcctv05plus
+CCTV16:
+  name:
+  - CCTV16
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: HD-20M-2160P-cctv16
+    ystenln: HD-20M-2160P-cctv16
+    ystenjs: HD-8000k-1080P-cctv16
+CCTV17:
+  name:
+  - CCTV17
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000204'
+    ystenfj: HD-8000k-1080P-cctv17
+    ystenln: HD-8000k-1080P-cctv17
+    ystenjs: HD-4000k-1080P-cctv17
+CGTN:
+  name:
+  - CGTN
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000134'
+广东卫视:
+  name:
+  - 广东卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000092'
+    ystenfj: HD-8000k-1080P-bstguangdongstv
+    ystenln: HD-8000k-1080P-bstguangdongstv
+    ystenjs: guangdongstv
+湖南卫视:
+  name:
+  - 湖南卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000086'
+    ystenfj: fjhunanstv
+    ystenln: fjhunanstv
+    ystenjs: HD-2500k-1080P-hunanstv
+东方卫视:
+  name:
+  - 东方卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000093'
+    ystenfj: HD-8000k-1080P-bstdongfangstv
+    ystenln: HD-8000k-1080P-bstdongfangstv
+    ystenjs: dongfangstv
+北京卫视:
+  name:
+  - 北京卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000083'
+    ystenfj: fjbeijingstv
+    ystenln: fjbeijingstv
+    ystenjs: HD-2500k-1080P-beijingstv
+浙江卫视:
+  name:
+  - 浙江卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000094'
+    ystenfj: fjzhejiangstv
+    ystenln: fjzhejiangstv
+    ystenjs: HD-2500k-1080P-zhejiangstv
+江苏卫视:
+  name:
+  - 江苏卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000085'
+    ystenfj: HD-8000k-1080P-bstjiangsustv
+    ystenln: HD-8000k-1080P-bstjiangsustv
+    ystenjs: JS_jiangsu
+深圳卫视:
+  name:
+  - 深圳卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000100'
+    ystenfj: fjshenzhenstv
+    ystenln: fjshenzhenstv
+    ystenjs: shenzhenstv
+天津卫视:
+  name:
+  - 天津卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000084'
+    ystenfj: fjtianjinstv
+    ystenln: fjtianjinstv
+    ystenjs: tianjinstv
+湖北卫视:
+  name:
+  - 湖北卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000102'
+    ystenfj: fjhubeistv
+    ystenln: fjhubeistv
+    ystenjs: hubeistv
+山东卫视:
+  name:
+  - 山东卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000099'
+    ystenfj: fjshandongstv
+    ystenln: fjshandongstv
+    ystenjs: shandongstv
+黑龙江卫视:
+  name:
+  - 黑龙江卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000095'
+    ystenfj: fjheilongjiangstv
+    ystenln: fjheilongjiangstv
+    ystenjs: HD-2500k-1080P-heilongjiangstv
+河北卫视:
+  name:
+  - 河北卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000108'
+    ystenfj: HD-8000k-1080P-bsthebeistv
+    ystenln: HD-8000k-1080P-bsthebeistv
+    ystenjs: hebeistv
+贵州卫视:
+  name:
+  - 贵州卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000101'
+    ystenfj: fjguizhoustv
+    ystenln: fjguizhoustv
+    ystenjs: guizhoustv
+辽宁卫视:
+  name:
+  - 辽宁卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000058'
+    ystenfj: HD-8000k-1080P-bstliaoningstv
+    ystenln: HD-8000k-1080P-bstliaoningstv
+    ystenjs: liaoningstv
+东南卫视:
+  name:
+  - 东南卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000483'
+    ystenfj: fjdongnanstv
+    ystenln: fjdongnanstv
+    ystenjs: dongnanstv
+安徽卫视:
+  name:
+  - 安徽卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000096'
+    ystenfj: HD-8000k-1080P-bstanhuistv
+    ystenln: HD-8000k-1080P-bstanhuistv
+    ystenjs: anhuistv
+甘肃卫视:
+  name:
+  - 甘肃卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000119'
+    ystenfj: fjgansustv
+    ystenln: fjgansustv
+    ystenjs: gansustv
+江西卫视:
+  name:
+  - 江西卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000098'
+    ystenfj: fjjiangxistv
+    ystenln: fjjiangxistv
+    ystenjs: jiangxistv
+四川卫视:
+  name:
+  - 四川卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000103'
+    ystenfj: HD-8000k-1080P-bstsichuanstv
+    ystenln: HD-8000k-1080P-bstsichuanstv
+    ystenjs: sichuanstv
+南方卫视:
+  name:
+  - 南方卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    51livetv: '1164'
+    sports8: '102'
+陕西卫视:
+  name:
+  - 陕西卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000512'
+    ystenfj: fjshanxi1stv
+    ystenln: fjshanxi1stv
+    ystenjs: shanxi1stv
+河南卫视:
+  name:
+  - 河南卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000339'
+    ystenfj: henanstv
+    ystenln: henanstv
+    ystenjs: henanstv
+云南卫视:
+  name:
+  - 云南卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000482'
+    ystenfj: yntv1
+    ystenln: yntv1
+    ystenjs: yntv1
+新疆卫视:
+  name:
+  - 新疆卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000150'
+    ystenfj: fjxinjiangstv
+    ystenln: fjxinjiangstv
+    ystenjs: xjtv1
+重庆卫视:
+  name:
+  - 重庆卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000107'
+    ystenfj: fjchongqingstv
+    ystenln: fjchongqingstv
+    ystenjs: chongqingstv
+海南卫视:
+  name:
+  - 海南卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000473'
+    ystenfj: lvyoustv
+    ystenln: lvyoustv
+    ystenjs: SD-4000k-576P-lvyoustv
+山西卫视:
+  name:
+  - 山西卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000109'
+    ystenfj: fjshanxistv
+    ystenln: fjshanxistv
+    ystenjs: shanxistv
+青海卫视:
+  name:
+  - 青海卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000111'
+    ystenfj: fjqinghaistv
+    ystenln: fjqinghaistv
+    ystenjs: qinghaistv
+内蒙古卫视:
+  name:
+  - 内蒙古卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000110'
+    ystenfj: fjneimenggustv
+    ystenln: fjneimenggustv
+    ystenjs: neimenggustv
+西藏卫视:
+  name:
+  - 西藏卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000121'
+    ystenfj: fjxizangstv
+    ystenln: fjxizangstv
+    ystenjs: xizangstv
+吉林卫视:
+  name:
+  - 吉林卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000097'
+    ystenfj: jilin1
+    ystenln: jilin1
+    ystenjs: SD-4000k-576P-jilinstv
+宁夏卫视:
+  name:
+  - 宁夏卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000118'
+    ystenfj: fjnignxiastv
+    ystenln: fjnignxiastv
+    ystenjs: ningxiastv
+山东教育卫视:
+  name:
+  - 山东教育卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '484'
+三沙卫视:
+  name:
+  - 三沙卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: HD-2500k-1080P-bstsanshastv
+    ystenln: HD-2500k-1080P-bstsanshastv
+厦门卫视:
+  name:
+  - 厦门卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: HD-4000k-1080P-xiamenstv
+    ystenln: HD-4000k-1080P-xiamenstv
+    ystenjs: SD-4000k-576P-xiamenstv
+兵团卫视:
+  name:
+  - 兵团卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000124'
+    ystenfj: SD-2500k-576P-bstbingtuanstv
+    ystenln: SD-2500k-576P-bstbingtuanstv
+    ystenjs: SD-4000k-576P-bingtuanstv
+金鹰纪实:
+  name:
+  - 金鹰纪实
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: HD-8000k-1080P-mgjinyingjishi
+    ystenln: HD-8000k-1080P-mgjinyingjishi
+    ystenjs: SD-4000k-576P-jinyingjs
+CETV1:
+  name:
+  - CETV1
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000135'
+    ystenfj: jiaoyutv
+    ystenln: jiaoyutv
+    ystenjs: jiaoyutv
+CETV2:
+  name:
+  - CETV2
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: fjjiaoyutv2
+    ystenln: fjjiaoyutv2
+    ystenjs: SD-4000k-576P-jiaoyutv2
+CETV4:
+  name:
+  - CETV4
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: SD-4000k-576P-jiaoyutv4
+    ystenln: SD-4000k-576P-jiaoyutv4
+    ystenjs: SD-4000k-576P-jiaoyutv4
+金鹰卡通:
+  name:
+  - 金鹰卡通
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000350'
+    ystenfj: SD-8000k-1080P-yingyinkaton
+    ystenln: SD-8000k-1080P-yingyinkaton
+    ystenjs: jinyingkaton
+卡酷动画:
   name:
   - 卡酷动画
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     51livetv: '1131'
     sports8: '69'
-'58':
+    tvmao: BTV10
+嘉佳卡通:
   name:
-  - 少儿动画
+  - 嘉佳卡通
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
-    sports8: '2878'
-'59':
+    ystenfj: fjjiajiakatong
+    ystenln: fjjiajiakatong
+    ystenjs: SD-4000k-576P-jiajiakaton
+中国天气:
   name:
-  - 爱综艺
+  - 中国天气
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
-    sports8: '2868'
-'61':
+    ystenfj: fjzgqixiang
+    ystenln: fjzgqixiang
+    51livetv: '2047'
+    sports8: '1168'
+北京纪实科教:
   name:
-  - 魅力时尚
+  - 北京纪实科教
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
-    sports8: '2879'
-'62':
+    sports8: '2011'
+CCTV4K:
   name:
-  - 爱电影
+  - CCTV4K
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
-    sports8: '2870'
-'63':
-  name:
-  - 热播剧场
-  preview: 2
-  recap: 7
-  refresh: once
-  scraper:
-    sports8: '2877'
-'64':
-  name:
-  - 经典电影
-  preview: 2
-  recap: 7
-  refresh: once
-  scraper:
-    sports8: '2876'
-'65':
-  name:
-  - 收视指南
-  preview: 2
-  recap: 7
-  refresh: once
-  scraper:
-    sports8: '2880'
-'70':
-  name:
-  - IPTV谍战剧场
-  preview: 2
-  recap: 7
-  refresh: once
-  scraper:
-    sports8: '2872'
-    tvmao: IPTVDZJC
-'71':
-  name:
-  - IPTV野外
-  preview: 2
-  recap: 7
-  refresh: once
-  scraper:
-    sports8: '2874'
-    tvmao: IPTVYW
-'72':
-  name:
-  - IPTV法治
-  preview: 2
-  recap: 7
-  refresh: once
-  scraper:
-    sports8: '2875'
-    tvmao: IPTVFZ
-'73':
-  name:
-  - IPTV相声小品
-  preview: 2
-  recap: 7
-  refresh: once
-  scraper:
-    sports8: '2873'
-    tvmao: IPTVXSXP
-'751':
-  name:
-  - CHC影迷电影
-  preview: 2
-  recap: 7
-  refresh: once
-  scraper:
-    sports8: '1179'
-    tvmao: CHC3
-'752':
-  name:
-  - CHC动作电影
-  preview: 2
-  recap: 7
-  refresh: once
-  scraper:
-    sports8: '1180'
-    tvmao: CHC1
-'753':
+    tvmao: CCTV4K
+    cctv: cctv4k
+CHC家庭影院:
   name:
   - CHC家庭影院
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     sports8: '411'
     tvmao: CHC2
-'754':
+CHC动作电影:
   name:
-  - 先锋乒羽
+  - CHC动作电影
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
-    tvmao: XFBY
-'755':
+    sports8: '1180'
+    tvmao: CHC1
+CHC影迷电影:
+  name:
+  - CHC影迷电影
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '1179'
+    tvmao: CHC3
+新动漫:
   name:
   - 新动漫
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     sports8: '1181'
     tvmao: DONGMAN
-'910000003':
+先锋乒羽:
+  name:
+  - 先锋乒羽
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: SD-2000k-576P-xianfengpy
+    ystenln: SD-2000k-576P-xianfengpy
+    tvmao: XFBY
+爱综艺:
+  name:
+  - 爱综艺
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '2868'
+爱电影:
+  name:
+  - 爱电影
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '2870'
+爱大剧:
+  name:
+  - 爱大剧
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '2871'
+IPTV谍战剧场:
+  name:
+  - IPTV谍战剧场
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '2872'
+    tvmao: IPTVDZJC
+IPTV野外:
+  name:
+  - IPTV野外
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '2874'
+    tvmao: IPTVYW
+经典电影:
+  name:
+  - 经典电影
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '2876'
+少儿动画:
+  name:
+  - 少儿动画
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '2878'
+    tvmao: IPTVSEDH
+爱体育:
+  name:
+  - 爱体育
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '2869'
+收视指南:
+  name:
+  - 收视指南
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '2880'
+IPTV法治:
+  name:
+  - IPTV法治
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '2875'
+    tvmao: IPTVFZ
+热播剧场:
+  name:
+  - 热播剧场
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '2877'
+    tvmao: IPTVRBJC
+魅力时尚:
+  name:
+  - 魅力时尚
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '2879'
+    tvmao: IPTVMLSS
+IPTV相声小品:
+  name:
+  - IPTV相声小品
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '2873'
+    tvmao: IPTVXSXP
+IPTV足球:
+  name:
+  - IPTV足球
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    tvmao: NMGZQ
+CGTN新闻:
+  name:
+  - CGTN新闻
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '1775'
+安多卫视:
+  name:
+  - 安多卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenjs: anduostv
+康巴卫视:
+  name:
+  - 康巴卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: kamba-tv
+    ystenln: kamba-tv
+    ystenjs: SD-4000k-576P-kambatv
+延边卫视:
+  name:
+  - 延边卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: SD-4000k-576P-yanbianstv
+    ystenln: SD-4000k-576P-yanbianstv
+    ystenjs: SD-4000k-576P-yanbianstv
+卡酷少儿:
+  name:
+  - 卡酷少儿
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    bfgd: '4200000106'
+    ystenfj: kakukaton
+    ystenln: kakukaton
+    ystenjs: kakukaton
+哈哈炫动:
+  name:
+  - 哈哈炫动
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenjs: xuandongkaton
+游戏风云:
+  name:
+  - 游戏风云
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '913'
+家庭理财:
+  name:
+  - 家庭理财
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenjs: G_JIATINGLC
+生活时尚:
+  name:
+  - 生活时尚
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '1213'
+欢笑剧场:
+  name:
+  - 欢笑剧场
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '911'
+都市剧场:
+  name:
+  - 都市剧场
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '909'
+快乐垂钓:
+  name:
+  - 快乐垂钓
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: HD-2000k-1080P-happyfishing
+    ystenln: HD-2000k-1080P-happyfishing
+欢笑剧场4K:
+  name:
+  - 欢笑剧场4K
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '911'
+东方财经:
+  name:
+  - 东方财经
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '405'
+财富天下:
+  name:
+  - 财富天下
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    tvmao: CAIFUTIANXIA
+茶频道:
+  name:
+  - 茶频道
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: SD-2000k-576P-chapd
+    ystenln: SD-2000k-576P-chapd
+魅力足球:
+  name:
+  - 魅力足球
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    tvmao: YULE
+中国气象:
+  name:
+  - 中国气象
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '1168'
+动漫秀场:
+  name:
+  - 动漫秀场
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '914'
+乐游:
+  name:
+  - 乐游
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    tvmao: DOCUMENTARY
+法治天地:
+  name:
+  - 法治天地
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '918'
+金色学堂:
+  name:
+  - 金色学堂
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '923'
+CGTN纪录:
+  name:
+  - CGTN纪录
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '1774'
+CGTN西语:
+  name:
+  - CGTN西语
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '17'
+CGTN法语:
+  name:
+  - CGTN法语
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: SD-4000k-576P-CGTNFrench
+    ystenln: SD-4000k-576P-CGTNFrench
+CGTN阿语:
+  name:
+  - CGTN阿语
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '1545'
+CGTN俄语:
+  name:
+  - CGTN俄语
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: SD-4000k-576P-CGTNRussia
+    ystenln: SD-4000k-576P-CGTNRussia
+纯享4K:
+  name:
+  - 纯享4K
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: HD-20M-2160P-chunxiang4k
+    ystenln: HD-20M-2160P-chunxiang4k
+广东珠江:
+  name:
+  - 广东珠江
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '71'
+旅游卫视:
+  name:
+  - 旅游卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '31'
+南宁公共:
+  name:
+  - 南宁公共
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '286'
+藏语卫视:
+  name:
+  - 藏语卫视
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '54'
+北京纪实:
+  name:
+  - 北京纪实
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '2011'
+优漫卡通:
+  name:
+  - 优漫卡通
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: youmankaton
+    ystenln: youmankaton
+    ystenjs: youmankaton
+高尔夫网球:
+  name:
+  - 高尔夫网球
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    sports8: '886'
+精品萌宠:
+  name:
+  - 精品萌宠
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: jingpinmc
+    ystenln: jingpinmc
+    ystenjs: jingpinmc
+黑莓电影:
+  name:
+  - 黑莓电影
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: HD-8000k-1080P-Supermovie
+    ystenln: HD-8000k-1080P-Supermovie
+    ystenjs: HD-8000k-1080P-Supermovie
+黑莓动画:
+  name:
+  - 黑莓动画
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: HD-8000k-1080P-Supercctv14
+    ystenln: HD-8000k-1080P-Supercctv14
+    ystenjs: HD-8000k-1080P-Supercctv14
+哒啵赛事:
+  name:
+  - 哒啵赛事
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: HD-8000k-1080P-Superwmyx
+    ystenln: HD-8000k-1080P-Superwmyx
+    ystenjs: HD-8000k-1080P-Superwmyx
+哒啵电竞:
+  name:
+  - 哒啵电竞
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: dabodj
+    ystenln: dabodj
+睛彩竞技:
+  name:
+  - 睛彩竞技
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: HD-8000k-1080P-miguaoyun2
+    ystenln: HD-8000k-1080P-miguaoyun2
+    ystenjs: HD-8000k-1080P-miguaoyun2
+睛彩篮球:
+  name:
+  - 睛彩篮球
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: HD-8000k-1080P-miguaoyun1
+    ystenln: HD-8000k-1080P-miguaoyun1
+    ystenjs: HD-8000k-1080P-miguaoyun1
+睛彩青少:
+  name:
+  - 睛彩青少
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: HD-8000k-1080P-quanminrl
+    ystenln: HD-8000k-1080P-quanminrl
+    ystenjs: HD-8000k-1080P-quanminrl
+睛彩广场舞:
+  name:
+  - 睛彩广场舞
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: MIGU-8000k-1080P-jcgcw
+    ystenln: MIGU-8000k-1080P-jcgcw
+    ystenjs: MIGU-8000k-1080P-jcgcw
+古装剧场:
+  name:
+  - 古装剧场
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: guzhuangjc
+    ystenln: guzhuangjc
+    ystenjs: GITV-JS-51
+动作电影:
+  name:
+  - 动作电影
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: dongzuody
+    ystenln: dongzuody
+    ystenjs: GITV-JS-52
+军旅剧场:
+  name:
+  - 军旅剧场
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: junlvjc
+    ystenln: junlvjc
+    ystenjs: GITV-JS-53
+家庭剧场:
+  name:
+  - 家庭剧场
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: jiatingjc
+    ystenln: jiatingjc
+    ystenjs: GITV-JS-54
+惊悚悬疑:
+  name:
+  - 惊悚悬疑
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: jingsongxy
+    ystenln: jingsongxy
+    ystenjs: GITV-JS-55
+热播精选:
+  name:
+  - 热播精选
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: xiqumd
+    ystenln: xiqumd
+    ystenjs: GITV-JS-56
+精品综合:
+  name:
+  - 精品综合
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: mingxingdp
+    ystenln: mingxingdp
+    ystenjs: GITV-JS-57
+爱情喜剧:
+  name:
+  - 爱情喜剧
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: aiqingxj
+    ystenln: aiqingxj
+    ystenjs: GITV-JS-58
+精品大剧:
+  name:
+  - 精品大剧
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: jdaju
+    ystenln: jdaju
+    ystenjs: GITV-JS-59
+中国功夫:
+  name:
+  - 中国功夫
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: SD-1500k-576P-gzkongfu
+    ystenln: SD-1500k-576P-gzkongfu
+    ystenjs: GITV-JS-60
+金牌综艺:
+  name:
+  - 金牌综艺
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: saishijx
+    ystenln: saishijx
+    ystenjs: GITV-JS-61
+军事评论:
+  name:
+  - 军事评论
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: junshipl
+    ystenln: junshipl
+    ystenjs: GITV-JS-62
+农业致富:
+  name:
+  - 农业致富
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenjs: GITV-JS-63
+精品纪录:
+  name:
+  - 精品纪录
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: jingpinjl
+    ystenln: jingpinjl
+    ystenjs: GITV-JS-64
+怡伴健康:
+  name:
+  - 怡伴健康
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: ljiankangyouyue
+    ystenln: ljiankangyouyue
+    ystenjs: ljiankangyouyue
+精品体育:
+  name:
+  - 精品体育
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: jtiyu
+    ystenln: jtiyu
+    ystenjs: GITV-JS-65
+潮妈辣婆:
+  name:
+  - 潮妈辣婆
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: HD-1500k-720P-cmlapo
+    ystenln: HD-1500k-720P-cmlapo
+    ystenjs: GITV-JS-66
+炫舞未来:
+  name:
+  - 炫舞未来
+  preview: 2
+  recap: 6
+  refresh: once
+  scraper:
+    ystenfj: HD-4000k-1080P-xwwl
+    ystenln: HD-4000k-1080P-xwwl
+    ystenjs: HD-4000k-1080P-xwwl
+广西国际:
   name:
   - 广西国际
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     51livetv: '2520'
     sports8: '1770'
     tvmao: GXGJ
-'910000046':
+柳州新闻综合:
   name:
   - 柳州新闻综合
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     51livetv: '1241'
     sports8: '195'
     tvmao: GXLZTV1
-'910000047':
+北海新闻综合:
   name:
   - 北海新闻综合
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     51livetv: '2451'
     sports8: '1699'
     tvmao: BHTV1
-'910000048':
+桂林新闻综合:
   name:
   - 桂林新闻综合
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     51livetv: '2805'
     sports8: '2135'
     tvmao: GLXW
-'910000049':
+贺州综合:
   name:
   - 贺州综合
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     tvmao: GXHZTV1
-'910000050':
+玉林新闻综合:
   name:
   - 玉林新闻综合
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     51livetv: '1759'
     sports8: '817'
     tvmao: GXYLTV1
-'910000051':
+百色综合:
   name:
   - 百色综合
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     51livetv: '2522'
     sports8: '1772'
     tvmao: BSTV1
-'910000053':
+防城港新闻综合:
   name:
   - 防城港新闻综合
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     51livetv: '2458'
     sports8: '1706'
     tvmao: FCGTV1
-'910000054':
+精彩影视:
   name:
   - 精彩影视
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     sports8: '2821'
     tvmao: HSJCYS
-'910000055':
+求索纪录:
   name:
   - 求索纪录
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     sports8: '2793'
     tvmao: QSJL
-'910000058':
+钦州综合:
   name:
   - 钦州综合
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     51livetv: '2840'
     sports8: '2171'
     tvmao: QZTVCA1
-'910000060':
+河池新闻综合:
   name:
   - 河池新闻综合
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     51livetv: '2454'
     sports8: '1702'
     tvmao: HCHTV1
-'910000062':
+来宾综合:
   name:
   - 来宾综合
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     51livetv: '2842'
     sports8: '2173'
     tvmao: LBTVCA1
-'910000063':
+贵港新闻综合:
   name:
   - 贵港新闻综合
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     51livetv: '2456'
     sports8: '1704'
     tvmao: GGTV1
-'910000064':
+崇左综合:
   name:
   - 崇左综合
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     51livetv: '2460'
     sports8: '1708'
     tvmao: GXCZTV1
-'910000070':
+梧州新闻综合:
   name:
   - 梧州新闻综合
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     51livetv: '1926'
     sports8: '1024'
     tvmao: GXWZTV1
-'910000072':
+中国交通:
   name:
   - 中国交通
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     sports8: '1304'
     tvmao: ZGJTPD
-'910000073':
+桂林科教旅游:
   name:
   - 桂林科教旅游
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     sports8: '2137'
     tvmao: GLKJLY
-'910000074':
+桂林公共频道:
   name:
   - 桂林公共频道
   preview: 2
-  recap: 7
+  recap: 6
   refresh: once
   scraper:
     sports8: '2136'
