@@ -44,37 +44,52 @@ def load_config(path: str) -> list[Channel]:
             print(exc)
     return channels
 
+def fetch_data(url):
+    try:
+        # 如果抓取失败，捕获异常并返回 None
+        response = requests.get(url, verify=False)
+        response.raise_for_status()  # 检查是否请求成功
+        return response.text
+    except requests.exceptions.RequestException as e:
+        print(f"请求失败: {e}")
+        return None
 
 def scrap_channel(
-    channel: Channel, channels_config, date: date = datetime.today().date()
+    channel, channels_config, date: date = datetime.today().date()
 ) -> bool:
-    """
-    Scrap channel with the given date.
-
-    Args:
-        channel (Channel): The channel to scrap.
-        channels_config (dict): The channels config.
-        date (date, optional): The date to scrap. Defaults to datetime.today().date().
-
-    Returns:
-        bool: True if the channel is updated, False otherwise.
-    """
     channel.metadata["last_scraper"] = "FAILED"
+    
     for scraper in channels_config[channel.id]["scraper"]:
         scraper_module = importlib.import_module("epg.scraper" + "." + scraper)
         update = getattr(scraper_module, "update")
-        if update(channel, channels_config[channel.id]["scraper"][scraper], date):
+        
+        try:
+            # 尝试抓取数据
+            data = update(channel, channels_config[channel.id]["scraper"][scraper], date)
+            
+            # 如果抓取成功但数据为空，跳到下一个抓取器
+            if not data:
+                print(f"抓取器 {scraper} 成功执行，但没有返回数据，跳过此抓取器，尝试下一个。")
+                continue
+            
+            # 如果抓取器成功，并且有数据，就保存并返回
             channel.metadata["last_scraper"] = scraper
             channel.metadata["last_update"] = datetime.now().astimezone()
-            if channel.metadata.get("plugin") != None:
+            
+            if channel.metadata.get("plugin") is not None:
                 plugin_module = importlib.import_module(
                     "epg.plugin" + "." + channel.metadata["plugin"]
                 )
                 plugin_update = getattr(plugin_module, "update")
                 plugin_update(channel, date)
+            
             return True
-    return False
+        except Exception as e:
+            print(f"抓取器 {scraper} 失败，错误: {e}，跳过此抓取器，尝试下一个抓取器。")
+            continue  # 如果当前抓取器失败，继续轮询下一个抓取器
 
+    print(f"所有抓取器都失败了，无法抓取频道 {channel.id} 数据。")
+    return False  # 如果所有抓取器都失败，返回失败
 
 def copy_channels(
     channels: list[Channel], new_channels: list[Channel]
