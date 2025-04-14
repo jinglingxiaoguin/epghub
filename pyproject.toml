@@ -5,6 +5,7 @@ description = "A multi-source EPG builder with extensibility."
 authors = ["Shun Li <riverscn@gmail.com>"]
 license = "GPL3"
 readme = "README.md"
+package-mode = false  # 禁用 Poetry 的包模式
 
 [tool.poetry.dependencies]
 python = "^3.11"
