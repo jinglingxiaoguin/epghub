@@ -7,6 +7,25 @@
   scraper:
     51livetv: '1164'
     sports8: '102'
+'3':
+  name:
+  - 卡酷动画
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    51livetv: '1131'
+    sports8: '69'
+    tvmao: BTV10
+'162':
+  name:
+  - 中国天气
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    51livetv: '2047'
+    sports8: '1168'
 '755':
   name:
   - 新动漫
@@ -24,6 +43,26 @@
   refresh: once
   scraper:
     tvmao: YULE
+'910000003':
+  name:
+  - 广西国际
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    51livetv: '2520'
+    sports8: '1770'
+    tvmao: GXGJ
+'910000046':
+  name:
+  - 柳州新闻综合
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    51livetv: '1241'
+    sports8: '195'
+    tvmao: GXLZTV1
 '910000069':
   name:
   - 柳州新闻综合
@@ -34,6 +73,16 @@
     51livetv: '1241'
     sports8: '195'
     tvmao: GXLZTV1
+'910000047':
+  name:
+  - 北海新闻综合
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    51livetv: '2451'
+    sports8: '1699'
+    tvmao: BHTV1
 '910000056':
   name:
   - 北海新闻综合
@@ -44,6 +93,16 @@
     51livetv: '2451'
     sports8: '1699'
     tvmao: BHTV1
+'910000048':
+  name:
+  - 桂林新闻综合
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    51livetv: '2805'
+    sports8: '2135'
+    tvmao: GLXW
 '910000066':
   name:
   - 桂林新闻综合
@@ -70,6 +129,16 @@
   refresh: once
   scraper:
     tvmao: GXHZTV1
+'910000050':
+  name:
+  - 玉林新闻综合
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    51livetv: '1759'
+    sports8: '817'
+    tvmao: GXYLTV1
 '910000068':
   name:
   - 玉林新闻综合
@@ -80,6 +149,16 @@
     51livetv: '1759'
     sports8: '817'
     tvmao: GXYLTV1
+'910000051':
+  name:
+  - 百色综合
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    51livetv: '2522'
+    sports8: '1772'
+    tvmao: BSTV1
 '910000052':
   name:
   - 百色综合
@@ -90,6 +169,35 @@
     51livetv: '2522'
     sports8: '1772'
     tvmao: BSTV1
+'910000053':
+  name:
+  - 防城港新闻综合
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    51livetv: '2458'
+    sports8: '1706'
+    tvmao: FCGTV1
+'910000054':
+  name:
+  - 精彩影视
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    sports8: '2821'
+    tvmao: HSJCYS
+'910000058':
+  name:
+  - 钦州综合
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    51livetv: '2840'
+    sports8: '2171'
+    tvmao: QZTVCA1
 '910000059':
   name:
   - 钦州综合
@@ -100,6 +208,16 @@
     51livetv: '2840'
     sports8: '2171'
     tvmao: QZTVCA1
+'910000060':
+  name:
+  - 河池新闻综合
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    51livetv: '2454'
+    sports8: '1702'
+    tvmao: HCHTV1
 '910000061':
   name:
   - 河池新闻综合
@@ -110,6 +228,16 @@
     51livetv: '2454'
     sports8: '1702'
     tvmao: HCHTV1
+'910000062':
+  name:
+  - 来宾综合
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    51livetv: '2842'
+    sports8: '2173'
+    tvmao: LBTVCA1
 '910000065':
   name:
   - 来宾综合
@@ -120,6 +248,16 @@
     51livetv: '2842'
     sports8: '2173'
     tvmao: LBTVCA1
+'910000063':
+  name:
+  - 贵港新闻综合
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    51livetv: '2456'
+    sports8: '1704'
+    tvmao: GGTV1
 '910000067':
   name:
   - 贵港新闻综合
@@ -130,6 +268,16 @@
     51livetv: '2456'
     sports8: '1704'
     tvmao: GGTV1
+'910000064':
+  name:
+  - 崇左综合
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    51livetv: '2460'
+    sports8: '1708'
+    tvmao: GXCZTV1
 '910000071':
   name:
   - 崇左综合
@@ -140,6 +288,16 @@
     51livetv: '2460'
     sports8: '1708'
     tvmao: GXCZTV1
+'910000070':
+  name:
+  - 梧州新闻综合
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    51livetv: '1926'
+    sports8: '1024'
+    tvmao: GXWZTV1
 '910000076':
   name:
   - 梧州新闻综合
@@ -150,3 +308,21 @@
     51livetv: '1926'
     sports8: '1024'
     tvmao: GXWZTV1
+'910000073':
+  name:
+  - 桂林科教旅游
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    sports8: '2137'
+    tvmao: GLKJLY
+'910000074':
+  name:
+  - 桂林公共频道
+  preview: 2
+  recap: 1
+  refresh: once
+  scraper:
+    sports8: '2136'
+    tvmao: GLGG
